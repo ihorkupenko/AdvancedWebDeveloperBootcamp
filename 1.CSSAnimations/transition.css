@@ -1,0 +1,43 @@
+.div {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    position: relative;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    box-shadow: 5px 3px blue;
+    border-radius: 15px;
+    transition-property: background-color, border-radius, box-shadow, transform, opacity;
+    transition-duration: 6s, 4s, 2s, 3s, 3s;
+}
+
+.container {
+    margin: 10px auto;
+    text-align: center;
+}
+  
+#first:hover {   
+    transform: translate(200px, 200px)scale(2) rotate(90deg);
+    background-color: red;
+    border-radius: 50px;
+    box-shadow: 3px 2px cyan;    
+    transition-delay: 0.2s;
+}
+  
+#second:hover {
+    transform: scale(4);
+    background-color: green;
+    opacity: 0.2;
+}
+  
+#third:hover {
+    transform: translate(200px, -100px);
+    background-color: yellow;
+    color: black;
+    border-radius: 40px;
+    box-shadow: red;
+    transition-duration: 2s;
+}
